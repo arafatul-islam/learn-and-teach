@@ -1,0 +1,21 @@
+man - an interface to the system reference manuals
+
+Bash Commands
+---
+pwd // present working directory 
+pwd --help // help to use particular Commands
+cd // change directory
+cd .. // 1 step back 
+cd ../.. //2 step back [relative path]
+
+ls //show all in a directory [list]
+ls directory_name //show all in directory_name
+
+echo // output what is typed 
+
+which // shows where the argument is
+ex: which ls // /usr/bin/ls
+
+
+flags
+pwd --help //here --help is a flag
