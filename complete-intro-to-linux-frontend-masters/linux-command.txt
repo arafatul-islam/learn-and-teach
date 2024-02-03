@@ -1,3 +1,5 @@
+https://btholt.github.io/complete-intro-to-linux-and-the-cli/
+
 man - an interface to the system reference manuals
 
 Bash Commands
@@ -23,3 +25,15 @@ pwd --help //here --help is a flag
 cli search 
 ctrl+r 
 up/down arrow
+
+bash history 
+!! //last Command
+ex: sudo !! // sudo last Command
+
+//careful 
+ctrl+shift+v = past
+ctrl+shift+c = copy
+ctrl+d = quit
+
+signal & power ctrl
+^ represent ctrl
