@@ -19,3 +19,7 @@ ex: which ls // /usr/bin/ls
 
 flags
 pwd --help //here --help is a flag
+
+cli search 
+ctrl+r 
+up/down arrow
