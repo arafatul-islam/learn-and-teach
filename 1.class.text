@@ -1,0 +1,7 @@
+By definition, a class is the blueprint of objects. For example, from the Bank Account class, you can create many bank account objects.
+
+By convention, you should follow these rules when defining a class:
+
+1.A class name should be in the upper camel case where each word is capitalized. For example, BankAccount, Customer, Transaction, and DebitNote.
+2.If a class name is a noun, it should be in the singular noun.
+Define each class in a separate PHP file.

@@ -1,0 +1,5 @@
+What is $this in PHP?
+In PHP, $this keyword references the current object of the class. The $this keyword allows you to access the properties and methods of the current object within the class using the object operator (->):
+
+
+Chaining methods:

@@ -1,0 +1,24 @@
+PHP has three access modifiers: public, private, and protected
+
+The public access modifier allows you to access properties and methods from both inside and outside of the class.
+The private access modifier prevents you from accessing properties and methods from the outside of the class.
+
+if try to access private properties or methods of a class:
+Fatal error: Uncaught Error: Cannot access private property Class::propertyName
+
+#getter and setter:
+To manipulate the value of a private property, you need to define a public method and use the method to manage a private property.
+
+Typically, you need to define two kinds of public methods to manage a private property:
+
+A getter returns the value of the private property.
+A setter sets a new value for the private property.
+By convention, the getter and setter have the following name:
+getPropertyName
+setPropertyName
+
+by using the private property, you can prevent direct access to the property from the outside of the class.
+
+In addition, the getter/setter methods ensure that the only way to access the property is through these methods. And the getter/setter methods can provide custom logic to manipulate the property value.
+
+For example, if you want the value of the $name property to be not blank, you can add the validation logic to the setName() method as follows:
